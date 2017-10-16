@@ -38,6 +38,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseForm.cs">
@@ -46,11 +47,23 @@
     <Compile Include="BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="HasherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HasherForm.Designer.cs">
+      <DependentUpon>HasherForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="HostFileEditor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HostFileEditor.Designer.cs">
       <DependentUpon>HostFileEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ImageButton.Designer.cs">
+      <DependentUpon>ImageButton.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -68,6 +81,9 @@
     </Compile>
     <EmbeddedResource Include="BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HasherForm.resx">
+      <DependentUpon>HasherForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HostFileEditor.resx">
       <DependentUpon>HostFileEditor.cs</DependentUpon>

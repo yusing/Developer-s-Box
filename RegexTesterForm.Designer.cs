@@ -71,7 +71,7 @@
             this.listmode.Checked = true;
             this.listmode.Location = new System.Drawing.Point(386, 6);
             this.listmode.Name = "listmode";
-            this.listmode.Size = new System.Drawing.Size(84, 24);
+            this.listmode.Size = new System.Drawing.Size(85, 24);
             this.listmode.TabIndex = 4;
             this.listmode.TabStop = true;
             this.listmode.Text = "List Mode";
@@ -84,7 +84,7 @@
             this.highlightmode.AutoSize = true;
             this.highlightmode.Location = new System.Drawing.Point(262, 6);
             this.highlightmode.Name = "highlightmode";
-            this.highlightmode.Size = new System.Drawing.Size(118, 24);
+            this.highlightmode.Size = new System.Drawing.Size(121, 24);
             this.highlightmode.TabIndex = 3;
             this.highlightmode.Text = "Highlight Mode";
             this.highlightmode.UseCompatibleTextRendering = true;
@@ -102,6 +102,7 @@
             this.expression.Size = new System.Drawing.Size(458, 188);
             this.expression.TabIndex = 2;
             this.expression.Text = "";
+            this.expression.DoubleClick += new System.EventHandler(this.expression_DoubleClick);
             // 
             // label2
             // 
@@ -109,7 +110,7 @@
             this.label2.Location = new System.Drawing.Point(12, 12);
             this.label2.Margin = new System.Windows.Forms.Padding(3);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 18);
+            this.label2.Size = new System.Drawing.Size(82, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Expression";
             // 
@@ -123,13 +124,14 @@
             this.source.Size = new System.Drawing.Size(458, 247);
             this.source.TabIndex = 5;
             this.source.Text = "";
+            this.source.DoubleClick += new System.EventHandler(this.source_DoubleClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 18);
+            this.label1.Size = new System.Drawing.Size(37, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Text";
             // 
@@ -139,7 +141,7 @@
             this.label3.Location = new System.Drawing.Point(487, 9);
             this.label3.Margin = new System.Windows.Forms.Padding(3);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 23);
+            this.label3.Size = new System.Drawing.Size(44, 23);
             this.label3.TabIndex = 5;
             this.label3.Text = "Result";
             this.label3.UseCompatibleTextRendering = true;

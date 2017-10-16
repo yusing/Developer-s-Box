@@ -1,0 +1,14 @@
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\bin\Debug\DeveloperBox.exe.config
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\bin\Debug\DeveloperBox.exe
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\bin\Debug\DeveloperBox.pdb
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.BaseForm.resources
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.HostFileEditor.resources
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.MainForm.resources
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.Properties.Resources.resources
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.RegexTesterForm.resources
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.csproj.GenerateResource.Cache
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.csproj.CoreCompileInputs.cache
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.exe
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.pdb
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.HasherForm.resources
+E:\VS2017\Projects\DeveloperBox\Developer-s-Box\obj\Debug\DeveloperBox.csprojResolveAssemblyReference.cache

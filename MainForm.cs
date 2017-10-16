@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Windows.Forms;
 
 namespace DeveloperBox
 {
-    public partial class MainForm : Form
+    public partial class MainForm : BaseForm
     {
         public void ShowForm(BaseForm form)
         {
@@ -23,6 +22,11 @@ namespace DeveloperBox
         private void regextester_Click(object sender, EventArgs e)
         {
             ShowForm(new RegexTesterForm());
+        }
+
+        private void Hasher_Click(object sender, EventArgs e)
+        {
+            ShowForm(new HasherForm());
         }
     }
 }

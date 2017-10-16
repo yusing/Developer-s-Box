@@ -33,6 +33,7 @@
             // 
             // host
             // 
+            this.host.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.host.Dock = System.Windows.Forms.DockStyle.Fill;
             this.host.Location = new System.Drawing.Point(0, 0);
             this.host.MaxLength = 2147483647;
@@ -44,6 +45,8 @@
             // 
             // HostFileEditor
             // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
+            this.ClientSize = new System.Drawing.Size(684, 511);
             this.Controls.Add(this.host);
             this.Name = "HostFileEditor";
             this.Text = "Host File Editor";

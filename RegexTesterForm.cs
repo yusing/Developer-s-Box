@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Text.RegularExpressions;
 using System.Threading;
+using System.Windows.Forms;
 
 namespace DeveloperBox
 {
@@ -17,6 +12,7 @@ namespace DeveloperBox
         GroupCollection groups;
         Thread t1;
 
+        public string Result { get { return result.Text; } set { result.Text = Result; } }
         public void startThread(bool listmode)
         {
             Color RandomColor()
@@ -37,7 +33,7 @@ namespace DeveloperBox
                         groups = Regex.Match(source.Text, expression.Text).Groups;
                     } catch( Exception ex )
                     {
-                        result.Text = ex.Message;
+                        Result = ex.Message;
                     }
                     source.SelectAll();
                     source.SelectionBackColor = Color.White;
@@ -55,7 +51,7 @@ namespace DeveloperBox
                         }
                         Invoke(new Action(() =>
                         {
-                            result.Text += $"{++i} : {g.Value.Replace("\n","")}\r\n";
+                            Result += $"{++i} : {g.Value.Replace("\n","")}\r\n";
                         }));
                     }
                 }
@@ -94,6 +90,16 @@ namespace DeveloperBox
         private void apply_Click(object sender, EventArgs e)
         {
             startThread(listmode.Checked);
+        }
+
+        private void expression_DoubleClick(object sender, EventArgs e)
+        {
+            Clipboard.SetText(expression.Text);
+        }
+
+        private void source_DoubleClick(object sender, EventArgs e)
+        {
+            source.Text = Clipboard.GetText(TextDataFormat.UnicodeText);
         }
     }
 }
